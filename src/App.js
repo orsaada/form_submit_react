@@ -1,5 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Form from "./Form";
+import FormVer2 from "./FormVer2";
+import { StylesProvider } from "@material-ui/styles";
+import { jss } from "react-jss";
 
 function App() {
   return (
@@ -18,6 +22,10 @@ function App() {
           Learn React
         </a>
       </header>
+      <Form />
+      <StylesProvider jss={jss}>
+        <FormVer2 />
+      </StylesProvider>
     </div>
   );
 }
