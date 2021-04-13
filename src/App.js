@@ -22,7 +22,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <Form />
+      {/* <Form /> */}
       <StylesProvider jss={jss}>
         <FormVer2 />
       </StylesProvider>

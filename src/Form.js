@@ -15,7 +15,6 @@ function Form() {
         {/* <input type="text" placeholder="Name" /> */}
       </div>
     </ThemeProvider>
-    
   );
 }
 
